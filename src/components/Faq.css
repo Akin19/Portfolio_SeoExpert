@@ -1,0 +1,21 @@
+.faq__item {
+  cursor: pointer;
+  background: var(--first-color);
+  color: var(--text-white);
+  border-radius: 20px;
+  padding: 10px;
+}
+.faq__title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.faq__title > span {
+  margin-top: 10px;
+}
+.faq_desc {
+  padding-left: 20px;
+}
+.faq__subTitle {
+  color: var(--text-white);
+}
