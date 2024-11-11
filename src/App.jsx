@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./Page/home/Home";
 import About from "./Page/about/About";
@@ -10,7 +10,7 @@ import Testimonial from "./Page/testimonial/Testimonial";
 import Footer from "./components/Footer";
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Home />
       <About />
@@ -18,7 +18,7 @@ const App = () => {
       <Testimonial />
       <Contact />
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
     // <BrowserRouter>
     //   <Navbar />
     //   {/* Test  */}
