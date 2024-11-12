@@ -1,6 +1,6 @@
 import { FaArrowRight } from "react-icons/fa";
 
-import "./home.css";
+import "./Home.css";
 import profile from "../../assets/home.jpg";
 // import { Link } from "react-router-dom";
 
