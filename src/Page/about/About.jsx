@@ -3,7 +3,7 @@ import Skills from "../../components/Skills";
 import { useState } from "react";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 
-import Faq from "../../components/faq";
+import Faq from "../../components/Faq";
 import Info from "./Info";
 import Stats from "./Stats";
 // import { resume } from "../../data";
