@@ -1,4 +1,3 @@
-import { HashRouter } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./Page/home/Home";
 import About from "./Page/about/About";
@@ -10,7 +9,7 @@ import Testimonial from "./Page/testimonial/Testimonial";
 import Footer from "./components/Footer";
 const App = () => {
   return (
-    <HashRouter>
+    <div>
       <Navbar />
       <Home />
       <About />
@@ -18,7 +17,7 @@ const App = () => {
       <Testimonial />
       <Contact />
       <Footer />
-    </HashRouter>
+    </div>
     // <BrowserRouter>
     //   <Navbar />
     //   {/* Test  */}

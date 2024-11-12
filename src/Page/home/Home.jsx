@@ -2,7 +2,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 import "./home.css";
 import profile from "../../assets/home.jpg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span>I'm Asad Akin.</span> Digital Marketer
+            <span>I am Asad Akin.</span> Digital Marketer
           </h1>
           <p className="home__description">
             I am a Digital Marketing and SEO expert focused on crafting clean &
